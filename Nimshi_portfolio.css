@@ -1,7 +1,7 @@
 
 
 .body{
-    font-family: ;
+
 }
 
 .nav-item a:hover{
@@ -84,3 +84,19 @@ transform: scale(1.04);
   color: white !important;
   font-size: 14px;
 }
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: white;              /* icon color */
+  margin-right: 15px;        /* spacing */
+  font-size: 22px;           /* size of icons */
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color:  var(--bs-success);            /* green hover effect */
+}
+
