@@ -20,11 +20,8 @@
     border-radius: 6px;
 }
 
-.row{
-    height: 550px;
-    margin-top: 50px;
-      margin-bottom: 50px;
-}
+
+
 
 .img-container:hover{
     transform: scale(1.05);
