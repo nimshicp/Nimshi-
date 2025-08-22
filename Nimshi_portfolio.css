@@ -76,3 +76,14 @@ transform: scale(1.04);
 transform: scale(1.04);
     transition: transform 0.5s ease-in-out;
 }
+
+.card {
+  min-height: 100%;
+}
+#about .col-12 {
+  margin-bottom: 20px;
+}
+.form-group h5 {
+  color: white !important;
+  font-size: 14px;
+}
