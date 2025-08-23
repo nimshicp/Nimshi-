@@ -1,9 +1,5 @@
 
 
-.body{
-
-}
-
 .nav-item a:hover{
  
     background-color: var(--bs-success);
@@ -103,3 +99,16 @@ transform: scale(1.04);
   transform: scale(1.2);
 }
 
+.col-md-6 .d-flex.align-items-center i {
+  color:white;             /* White color */
+  margin-right: 15px;
+  font-size: 22px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect: green */
+.col-md-6 .d-flex.align-items-center i:hover {
+  color: var(--bs-success);   /* Bootstrap green on hover */
+  transform: scale(1.2);      /* Slightly enlarge icon */
+  cursor: pointer;
+}
